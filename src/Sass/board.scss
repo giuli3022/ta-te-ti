@@ -1,0 +1,12 @@
+.board {
+    background-color: #3DC6AA;
+    display: grid;
+    float: left;
+    justify-items: center;
+    padding: 70px 50px 70px 50px;
+    grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    border: 6px solid #181E58;
+    border-right: 0;
+}

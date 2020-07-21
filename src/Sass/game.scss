@@ -1,0 +1,54 @@
+game {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+
+.info-box {
+    background-color: #3DC6AA;
+    width: 220px;
+    height: 490px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px 20px 20px;
+    border: 6px solid #181E58;
+    border-left: 0;
+    p {
+        color: #181E58;
+        font-family: 'Nunito', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        text-shadow: 1.5px 1.5px #ffffff;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.history-button {
+    background-color: #da243f;
+    width: 200px;
+    height: 30px;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    margin-bottom: 12px;
+    border: 2px solid rgb(177, 77, 107);
+    border-radius: 10px;
+    outline: none;
+}
+
+.history-button:hover {
+    background-color: #fa3c5a;
+}
+
+.history-button:focus {
+    background-color: #da243f;
+    box-shadow: 0px 0px 10px 0px rgb(133, 132, 132);
+}
